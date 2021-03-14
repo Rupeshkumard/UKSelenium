@@ -16,6 +16,7 @@ public class P1 {
 	public void banana() {
 		
 		Reporter.log("from banana",true);
+		System.out.println("hi");
 	}
 	
 	@Test(priority = 50, invocationCount=5)
